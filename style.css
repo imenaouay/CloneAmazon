@@ -106,7 +106,7 @@ nav{
 }
 .header-img{
     max-width: 100%;
-    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+    -webkit--mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
 }
 .header-slider a{
     position: absolute;
@@ -162,7 +162,7 @@ nav{
 }
 .products-slider .products img{
     min-width: 200px;
-    min-height: 200;
+    min-height: 200px;
 }
 
 .products-slider .products::-webkit-scrollbar{
@@ -184,15 +184,15 @@ nav{
 .products-slider-with-price .products::-webkit-scrollbar{
     display: none;
 }
-.product-card{
+.products-card{
     display: flex;
     flex-direction: column;
     justify-content: end;
     min-width: 210px;
     background: #fbfbfb;
 }
-.product-card img{
-    width: 210px;
+.products-card  img{
+    width: 110px;
     margin: 0 50px;
 }
 .product-offer p{
